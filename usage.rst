@@ -88,7 +88,6 @@ Functions of the encrypt module
 **steganography**:
     .. note:: steganography hides the master image into a slave image.
     .. warning:: This function cannot be used with encrypt_rgb but no error will be thrown (the image will be partially corrupted but still readable).
-    .. warning:: This function automatically saves the image on the output the user has set.
     *steganography(self)*
 
     steganography(self)
@@ -118,7 +117,6 @@ Functions of the decrypt module
 
 **steganography**:
     .. note:: retrives an image hidden into another.
-    .. warning:: This function automatically saves the image on the output the user has set.
     *steganography(self)*
 
     steganography(self)

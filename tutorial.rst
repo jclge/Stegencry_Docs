@@ -35,6 +35,7 @@ Complete example::
     obj.print_key()
     obj.shuffle_pixels()
     obj.steganography()
+    obj.save_image()
 
 
 Shuffle_pixels - Basic usage
@@ -120,6 +121,7 @@ Set the data to use the stenganography function::
 Call steganography and save the output::
 
     obj.steganography()
+    obj.save_image()
 
 Steganography - Advanced Usage
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
@@ -134,7 +136,6 @@ Complete example::
     obj.set_output("path_to_output")
     obj.set_key("key")
     obj.steganography()
-    obj.set_master("path_to_output")
     obj.unshuffle_pixels()
     obj.save_image()
 
